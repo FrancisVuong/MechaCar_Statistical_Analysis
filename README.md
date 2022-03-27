@@ -12,10 +12,8 @@ All of the statistical analysis and visualizations is written in the R programmi
 
 ## Linear Regression to Predict MPG
 
-<p align="center">
-    <img src=![image](https://user-images.githubusercontent.com/92435456/160305414-8a659e33-07ab-4c6a-8aa2-68cb5e6d286e.png)
-> 
-</p>
+![image](https://user-images.githubusercontent.com/92435456/160305414-8a659e33-07ab-4c6a-8aa2-68cb5e6d286e.png)
+
 
 - In the summary output, each Pr(>|t|) value represents the probability that each coefficient contributes a random amount of variance to the linear model. According to our results vehicle length and ground clearance (and Intercept) provide a non-random amount of variance to the linear model of mpg.
 
@@ -36,10 +34,7 @@ So the slope of the linear model is not considered to be zero.
 
 ## Summary Statistics on Suspension Coils
 
-<p align="center">
-    <img src=![image](https://user-images.githubusercontent.com/92435456/160305443-12ad6d45-fc3f-410e-a72a-1e933c46dc62.png)
-><br>All 
-</p>
+![image](https://user-images.githubusercontent.com/92435456/160305443-12ad6d45-fc3f-410e-a72a-1e933c46dc62.png)
 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.\
@@ -62,10 +57,7 @@ Assuming our significance level is the common 0.05 percent, our p-value of 0.069
 
 #### Lot1
 
-<p align="center">
-    <img src=![image](https://user-images.githubusercontent.com/92435456/160305453-016fd807-6748-43bc-b202-fb24ea09782c.png)
-> 
-</p>
+![image](https://user-images.githubusercontent.com/92435456/160305453-016fd807-6748-43bc-b202-fb24ea09782c.png)
 
 Here the p-value is below the significance level of 0.05 percent, so we can reject the null hypothesis and conclude that the PSI across the Lot 1 is statistically different from the population mean.
 
@@ -73,14 +65,11 @@ Here the p-value is below the significance level of 0.05 percent, so we can reje
 
 #### Lot2 and Lot3
 
-<p align="center">
-    <img src=![image](https://user-images.githubusercontent.com/92435456/160305464-3080d3ca-870d-4bbe-82f6-543a38a1e0b3.png)
-><br>Lot 2  
-</p>
-<p align="center">
-    <img src=![image](https://user-images.githubusercontent.com/92435456/160305471-8e87eeb6-1544-4714-b1f1-11da1dc516c5.png)
-><br>Lot3
-</p>
+![image](https://user-images.githubusercontent.com/92435456/160305464-3080d3ca-870d-4bbe-82f6-543a38a1e0b3.png)
+
+
+![image](https://user-images.githubusercontent.com/92435456/160305471-8e87eeb6-1544-4714-b1f1-11da1dc516c5.png)
+
 
 Here both p-values are above the significance level, so we can conclude that the PSI for Lot2 and Lot3 are statistically similar to the population mean.
 
